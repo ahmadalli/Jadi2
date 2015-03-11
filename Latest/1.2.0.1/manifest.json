@@ -2,7 +2,7 @@
     "name": "Jadi2",
     "version": "1.2.0.0",
     "manifest_version": 2,
-    "description": "Redirects jadi.net and feekeyboard.net to jadi2.undo.it",
+    "description": "Redirects jadi.net and freekeyboard.net to jadi2.undo.it",
     "homepage_url": "http://ahmadalli.net",
     "permissions": [
         "webRequest",
