@@ -1,6 +1,6 @@
 {
     "name": "Jadi2",
-    "version": "1.2.0.0",
+    "version": "1.2.0.1",
     "manifest_version": 2,
     "description": "Redirects jadi.net and freekeyboard.net to jadi2.undo.it",
     "homepage_url": "http://ahmadalli.net",
