@@ -1,25 +1,15 @@
 {
     "name": "Jadi2",
-    "version": "1.0.0.1",
+    "version": "1.2.0.0",
     "manifest_version": 2,
     "description": "Redirects jadi.net and feekeyboard.net to jadi2.undo.it",
     "homepage_url": "http://ahmadalli.net",
-    "content_scripts": [
-        {
-            "all_frames": true,
-            "js": [ "InitializeConfig.js" ],
-            "matches": [ "http://*/*", "https://*/*" ],
-            "run_at": "document_start"
-        },
-        {
-            "all_frames": true,
-            "js": [ "startup.js" ],
-            "matches": [ "http://*/*", "https://*/*" ],
-            "run_at": "document_start"
-        }
+    "permissions": [
+        "webRequest",
+        "<all_urls>",
+        "webRequestBlocking"
     ],
     "background": {
-        "page": "backgrounds.html"
-    },
-    "options_page": "options.html"
+        "scripts": [ "background.js" ]
+    }
 }
